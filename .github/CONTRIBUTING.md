@@ -1,3 +1,7 @@
+[coc]: https://github.com/Readme-Workflows/.github/blob/main/.github/CODE_OF_CONDUCT.md
+[discord]: https://discord.gg/2a9VC4AK6x
+[release-drafter]: https://github.com/release-drafter/release-drafter
+
 # Contributing to Readme-Workflows
 
 The Readme-Workflows Organisation is home of various Open Source products that you can use and we're always happy about contributions, no matter how small they are.
