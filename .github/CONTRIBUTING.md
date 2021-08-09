@@ -32,18 +32,16 @@ We use Pull requests to add new features, fix bugs, update dependencies and upda
 
 #### Status
 
-The Pull request can have 3 different "states" which tell the maintainers about whether it is reviewable and/or mergable or not.
+The Pull request can have 3 different states which tell the maintainers about whether it is reviewable and/or mergable or not.
 
 | Case                                     | Mergable? | Reviewable? |
 | ---------------------------------------- | --------- | ----------- |
-| `Draft Pull request`                     | No        | No          |
-| `Pull request`                           | No        | Yes         |
-| `Pull request w/ "Status: Ready" label`* | Yes       | Yes         |
+| `Draft Pull request`                     | ❌         | ❌           |
+| `Pull request`                           | ❌         | ✅           |
+| `Pull request w/ "Status: Ready" label`* | ✅         | ✅           |
 
-* Please tell a maintainer when your Pull request is ready to merge, so that they can apply the `Status: Ready` label to it.
-
-If at any point you think your Pull request isn't ready can you either change it back to a Draft or request the removal of the `Status: Ready` label.  
-Only a normal Pull request with the `Status: Ready` label is allowed to be merged!
+We use a GitHub Action to automatically turn a draft into a normal PR or the oposite based on if the PR has the `Status: Ready` label added or removed.  
+If at any point you don't think your PR is ready, turn it into a draft as Draft PRs without the `Status: Ready` label are not allowed to be merged as by the above table.
 
 #### Title
 
